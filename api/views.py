@@ -47,30 +47,8 @@ class FetchVideosFromYouTubeAPIView(APIView):
             return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
-
-# from django.db.models import Q
-# from rest_framework import viewsets
-
-# class VideoListByCategoryAPIView(APIView):
-#     def get(self, request):
-#         search_query = request.GET.get('search')
-        
-#         if search_query:
-#             videos = YouTubeVideo.objects.filter(
-#                 Q(title__icontains=search_query) |
-#                 Q(description__icontains=search_query) |
-#                 Q(channel_title__icontains=search_query)
-#             )
-#         else:
-#             videos = YouTubeVideo.objects.all()
-
-#         serializer = YouTubeVideoSerializer(videos, many=True)
-#         return Response(serializer.data)
-
 # views.py
 from rest_framework.generics import ListAPIView
-from .models import YouTubeVideo
-from .serializers import YouTubeVideoSerializer
 
 class PendingVideosView(ListAPIView):
     queryset = YouTubeVideo.objects.filter(status='pending')
@@ -80,8 +58,6 @@ class PendingVideosView(ListAPIView):
 
 
 from rest_framework import generics
-from .models import YouTubeVideo
-from .serializers import YouTubeVideoSerializer
 
 class ApprovedVideosByCategory(generics.ListAPIView):
     serializer_class = YouTubeVideoSerializer
@@ -110,11 +86,9 @@ class SingleVideoAPIView(generics.RetrieveAPIView):
 
 
 # views.py
-from rest_framework.views import APIView
-from rest_framework.response import Response
+
+
 from rest_framework.permissions import AllowAny
-from .models import YouTubeVideo
-from .serializers import YouTubeVideoSerializer
 
 class DustbinVideosByCategory(APIView):
     permission_classes = [AllowAny]
@@ -130,10 +104,7 @@ class DustbinVideosByCategory(APIView):
         return Response(serializer.data)
 
 
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-from .models import YouTubeVideo
+
 
 class ApproveVideoView(APIView):
     def post(self, request, video_id):
@@ -146,10 +117,7 @@ class ApproveVideoView(APIView):
             return Response({'error': 'Video not found.'}, status=status.HTTP_404_NOT_FOUND)
 
 
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-from .models import YouTubeVideo
+
 
 class BulkApproveView(APIView):
     def post(self, request):
@@ -158,10 +126,8 @@ class BulkApproveView(APIView):
         return Response({'message': f'{updated_count} videos approved.'}, status=status.HTTP_200_OK)
 
 # views.py
-from rest_framework.views import APIView
-from rest_framework.response import Response
+
 from rest_framework import status as http_status
-from .models import YouTubeVideo
 
 class DeapproveVideoView(APIView):
     def post(self, request, video_id):
@@ -177,10 +143,7 @@ class DeapproveVideoView(APIView):
             return Response({'error': 'Video not found.'}, status=http_status.HTTP_404_NOT_FOUND)
 
 
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-from .models import YouTubeVideo
+
 
 class ApproveAgainView(APIView):
     def post(self, request, video_id):
@@ -194,10 +157,7 @@ class ApproveAgainView(APIView):
 
 
 
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-from .models import YouTubeVideo
+
 
 class DeapproveVideoViewOne(APIView):
     def post(self, request, video_id):
@@ -211,11 +171,7 @@ class DeapproveVideoViewOne(APIView):
         except Exception as e:
             return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-from .models import YouTubeVideo
-from .serializers import YouTubeVideoSerializer
+
 from django.shortcuts import get_object_or_404
 
 class ApprovedVideoDetailAPIView(APIView):
