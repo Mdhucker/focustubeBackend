@@ -1,0 +1,1768 @@
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 25, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 25, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 25, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 25, in <module>
+    from django.core.wsgi import get_wsgi_application
+ModuleNotFoundError: No module named 'django'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/settings.py", line 2, in <module>
+    from decouple import config  # Import config from decouple this is used to load environment variables
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'decouple'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/settings.py", line 2, in <module>
+    from decouple import config  # Import config from decouple this is used to load environment variables
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'decouple'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/settings.py", line 2, in <module>
+    from decouple import config  # Import config from decouple this is used to load environment variables
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'decouple'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/settings.py", line 2, in <module>
+    from decouple import config  # Import config from decouple this is used to load environment variables
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'decouple'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/settings.py", line 2, in <module>
+    from decouple import config  # Import config from decouple this is used to load environment variables
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'decouple'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/apps/registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/apps/config.py", line 193, in create
+    import_module(entry)
+    ~~~~~~~~~~~~~^^^^^^^
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'rest_framework'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/apps/registry.py", line 83, in populate
+    raise RuntimeError("populate() isn't reentrant")
+RuntimeError: populate() isn't reentrant
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/apps/registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/apps/config.py", line 193, in create
+    import_module(entry)
+    ~~~~~~~~~~~~~^^^^^^^
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'corsheaders'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/apps/registry.py", line 83, in populate
+    raise RuntimeError("populate() isn't reentrant")
+RuntimeError: populate() isn't reentrant
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/apps/registry.py", line 83, in populate
+    raise RuntimeError("populate() isn't reentrant")
+RuntimeError: populate() isn't reentrant
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/apps/registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/apps/config.py", line 193, in create
+    import_module(entry)
+    ~~~~~~~~~~~~~^^^^^^^
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'corsheaders'
+Traceback (most recent call last):
+  File "/home/mishmzha/focustubeBackend/passenger_wsgi.py", line 26, in <module>
+    application = get_wsgi_application()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/apps/registry.py", line 83, in populate
+    raise RuntimeError("populate() isn't reentrant")
+RuntimeError: populate() isn't reentrant
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+[ERROR] [UID:1688][938949] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/corsheaders/middleware.py", line 56, in __call__
+    result = self.get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 130, in response_for_exception
+    response = debug.technical_500_response(
+        request, *sys.exc_info(), status_code=400
+    )
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/urls.py", line 7, in <module>
+    path('api/', include('api.urls')),
+                 ~~~~~~~^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/api/urls.py", line 2, in <module>
+    from .views import (
+    ...<3 lines>...
+    )
+  File "/home/mishmzha/focustubeBackend/api/views.py", line 7, in <module>
+    from .utils.fetch_youtube_videos import fetch_videos
+  File "/home/mishmzha/focustubeBackend/api/utils/fetch_youtube_videos.py", line 1, in <module>
+    import isodate
+ModuleNotFoundError: No module named 'isodate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = self._middleware_chain(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+        request, get_resolver(get_urlconf()), sys.exc_info()
+    )
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/urls.py", line 7, in <module>
+    path('api/', include('api.urls')),
+                 ~~~~~~~^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/api/urls.py", line 2, in <module>
+    from .views import (
+    ...<3 lines>...
+    )
+  File "/home/mishmzha/focustubeBackend/api/views.py", line 7, in <module>
+    from .utils.fetch_youtube_videos import fetch_videos
+  File "/home/mishmzha/focustubeBackend/api/utils/fetch_youtube_videos.py", line 1, in <module>
+    import isodate
+ModuleNotFoundError: No module named 'isodate'
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+[ERROR] [UID:1688][938949] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/corsheaders/middleware.py", line 56, in __call__
+    result = self.get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 130, in response_for_exception
+    response = debug.technical_500_response(
+        request, *sys.exc_info(), status_code=400
+    )
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/urls.py", line 7, in <module>
+    path('api/', include('api.urls')),
+                 ~~~~~~~^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/api/urls.py", line 2, in <module>
+    from .views import (
+    ...<3 lines>...
+    )
+  File "/home/mishmzha/focustubeBackend/api/views.py", line 7, in <module>
+    from .utils.fetch_youtube_videos import fetch_videos
+  File "/home/mishmzha/focustubeBackend/api/utils/fetch_youtube_videos.py", line 1, in <module>
+    import isodate
+ModuleNotFoundError: No module named 'isodate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = self._middleware_chain(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+        request, get_resolver(get_urlconf()), sys.exc_info()
+    )
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/urls.py", line 7, in <module>
+    path('api/', include('api.urls')),
+                 ~~~~~~~^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/api/urls.py", line 2, in <module>
+    from .views import (
+    ...<3 lines>...
+    )
+  File "/home/mishmzha/focustubeBackend/api/views.py", line 7, in <module>
+    from .utils.fetch_youtube_videos import fetch_videos
+  File "/home/mishmzha/focustubeBackend/api/utils/fetch_youtube_videos.py", line 1, in <module>
+    import isodate
+ModuleNotFoundError: No module named 'isodate'
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+[ERROR] [UID:1688][946640] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/corsheaders/middleware.py", line 56, in __call__
+    result = self.get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 130, in response_for_exception
+    response = debug.technical_500_response(
+        request, *sys.exc_info(), status_code=400
+    )
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/urls.py", line 7, in <module>
+    path('api/', include('api.urls')),
+                 ~~~~~~~^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/api/urls.py", line 2, in <module>
+    from .views import (
+    ...<3 lines>...
+    )
+  File "/home/mishmzha/focustubeBackend/api/views.py", line 7, in <module>
+    from .utils.fetch_youtube_videos import fetch_videos
+  File "/home/mishmzha/focustubeBackend/api/utils/fetch_youtube_videos.py", line 2, in <module>
+    from googleapiclient.discovery import build
+ModuleNotFoundError: No module named 'googleapiclient'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = self._middleware_chain(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+        request, get_resolver(get_urlconf()), sys.exc_info()
+    )
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/urls.py", line 7, in <module>
+    path('api/', include('api.urls')),
+                 ~~~~~~~^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/api/urls.py", line 2, in <module>
+    from .views import (
+    ...<3 lines>...
+    )
+  File "/home/mishmzha/focustubeBackend/api/views.py", line 7, in <module>
+    from .utils.fetch_youtube_videos import fetch_videos
+  File "/home/mishmzha/focustubeBackend/api/utils/fetch_youtube_videos.py", line 2, in <module>
+    from googleapiclient.discovery import build
+ModuleNotFoundError: No module named 'googleapiclient'
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+[ERROR] [UID:1688][946640] wsgiAppHandler pApp->start_response() return NULL.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/corsheaders/middleware.py", line 56, in __call__
+    result = self.get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 130, in response_for_exception
+    response = debug.technical_500_response(
+        request, *sys.exc_info(), status_code=400
+    )
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/urls.py", line 7, in <module>
+    path('api/', include('api.urls')),
+                 ~~~~~~~^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/api/urls.py", line 2, in <module>
+    from .views import (
+    ...<3 lines>...
+    )
+  File "/home/mishmzha/focustubeBackend/api/views.py", line 7, in <module>
+    from .utils.fetch_youtube_videos import fetch_videos
+  File "/home/mishmzha/focustubeBackend/api/utils/fetch_youtube_videos.py", line 2, in <module>
+    from googleapiclient.discovery import build
+ModuleNotFoundError: No module named 'googleapiclient'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/wsgi.py", line 124, in __call__
+    response = self.get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/base.py", line 140, in get_response
+    response = self._middleware_chain(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 57, in inner
+    response = response_for_exception(request, exc)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+    response = handle_uncaught_exception(
+        request, get_resolver(get_urlconf()), sys.exc_info()
+    )
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 428, in get_traceback_html
+    c = Context(self.get_traceback_data(), use_l10n=False)
+                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 411, in get_traceback_data
+    c["raising_view_name"] = get_caller(self.request)
+                             ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/views/debug.py", line 102, in get_caller
+    resolver_match = resolve(request.path)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 666, in resolve
+    for pattern in self.url_patterns:
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/focustubeBase/urls.py", line 7, in <module>
+    path('api/', include('api.urls')),
+                 ~~~~~~~^^^^^^^^^^^^
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/opt/alt/python313/lib64/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/mishmzha/focustubeBackend/api/urls.py", line 2, in <module>
+    from .views import (
+    ...<3 lines>...
+    )
+  File "/home/mishmzha/focustubeBackend/api/views.py", line 7, in <module>
+    from .utils.fetch_youtube_videos import fetch_videos
+  File "/home/mishmzha/focustubeBackend/api/utils/fetch_youtube_videos.py", line 2, in <module>
+    from googleapiclient.discovery import build
+ModuleNotFoundError: No module named 'googleapiclient'
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /api/approved/
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /api
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /api/videos/
+Not Found: /api/videos/
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/css/default.css
+Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /
+Not Found: /
+Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.focustube.online'. You may need to add 'api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /
+Not Found: /
+Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/img/search.svg
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/filters.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/css/forms.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/img/search.svg
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/css/forms.css
+Not Found: /static/admin/js/filters.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/admin/DateTimeShortcuts.js
+Not Found: /static/admin/js/calendar.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/forms.css
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/css/forms.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/prepopulate_init.js
+Not Found: /static/admin/img/icon-changelink.svg
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/img/icon-addlink.svg
+Not Found: /static/admin/img/icon-deletelink.svg
+Not Found: /static/admin/img/icon-viewlink.svg
+Not Found: /static/admin/js/change_form.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/mishmzha/virtualenv/focustubeBackend/3.13/lib/python3.13/site-packages/django/http/request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.focustube.online'. You may need to add 'www.api.focustube.online' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /favicon.ico
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/dashboard.css
+Not Found: /
+Not Found: /.well-known/pki-validation/4CC7E21A0490159AAB071BA1DD0C416A.txt
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /auth.json
+Not Found: /hardhat.config.js
+Not Found: /hardhat.config.js
+Not Found: /auth.json
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /api/api/deapprove/0-m6fZuv8Kc/
+Not Found: /api/api/deapprove/0-m6fZuv8Kc/
+Not Found: /api/api/deapprove/Oo_GGWV9Hys/
+Not Found: /api/api/deapprove/n89hO1pTqkw/
+Not Found: /api/api/deapprove/A-jGki0myeI/
+Not Found: /api/api/deapprove/c74iK8onc9Y/
+Not Found: /api/api/deapprove/fpszVScPHt8/
+Not Found: /api/api/deapprove/vsk5-wvV6F8/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/7h5h7haKMeU/
+Not Found: /api/api/deapprove/EWd3_I4X32g/
+Not Found: /api/api/deapprove/Z9kGRMglw-I/
+Not Found: /api/api/deapprove/Z9kGRMglw-I/
+Not Found: /api/api/deapprove/Z9kGRMglw-I/
+Not Found: /api/api/deapprove/Z9kGRMglw-I/
+Not Found: /api/api/deapprove/7p68Yc4-XFg/
+Not Found: /api/api/deapprove/7p68Yc4-XFg/
+Not Found: /api/api/deapprove/7p68Yc4-XFg/
+Not Found: /api/api/deapprove/7p68Yc4-XFg/
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /phpinfo.php
+Not Found: /info.php
+Not Found: /phpinfo
+Not Found: /.env
+Not Found: /config/.env
+Not Found: /api/.env
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /approved/
+Not Found: /approved/
+Not Found: /approved/
+Not Found: /approved/
+Not Found: /api/api/approved/
+Not Found: /api/api/approved/
+Not Found: /api/api/approved/
+Not Found: /api/api/approved/
+Not Found: /

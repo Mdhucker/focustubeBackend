@@ -25,8 +25,27 @@ SECRET_KEY = 'django-insecure-ix0fhowl+*n@nfmn=$bn_&cpq3vteo@_jh_bk*j#jtuk^fudgq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "api.focustube.online",
+    "www.api.focustube.online",
+    "focustube.online",
+    "localhost",
+    "127.0.0.1"
+]
 
+
+CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "http://127.0.0.1:3000",
+#     "api.focustube.online",
+# ]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://focustube.online",
+    "https://api.focustube.online",
+]
 # Application definition for the API
 # APPEND_SLASH = True
 
@@ -60,11 +79,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
 
-]
-CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
 ]
 
 
