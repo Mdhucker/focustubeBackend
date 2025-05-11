@@ -8,11 +8,14 @@ from .utils.fetch_youtube_videos import fetch_videos
 from rest_framework.generics import ListAPIView
 from .models import YouTubeVideo
 from .serializers import YouTubeVideoSerializer
+from .pagination import StandardResultsSetPagination  # ✅ import here
 
 class VideoListAPIView(APIView):
     def get(self, request):
         videos = YouTubeVideo.objects.all().order_by('-published_at')
         serializer = YouTubeVideoSerializer(videos, many=True)
+        pagination_class = StandardResultsSetPagination   # ✅ import here
+
         return Response(serializer.data)
 
 
@@ -61,6 +64,7 @@ from rest_framework import generics
 
 class ApprovedVideosByCategory(generics.ListAPIView):
     serializer_class = YouTubeVideoSerializer
+    pagination_class = StandardResultsSetPagination  # ✅ Add this
 
     def get_queryset(self):
         queryset = YouTubeVideo.objects.filter(status='approved')  # ✅ Only approved videos
