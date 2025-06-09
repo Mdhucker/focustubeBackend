@@ -61,8 +61,8 @@ sqlparse==0.5.3
 sympy==1.13.3
 threadpoolctl==3.6.0
 tokenizers==0.21.1
-torchaudio==2.7.0+cpu
-torchvision==0.22.0+cpu
+torchaudio==2.7.0
+torchvision==0.22.0
 tqdm==4.67.1
 transformers==4.52.4
 typing-inspection==0.4.1
