@@ -1,45 +1,9 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Virtual environments
+.env
+.git/
 venv/
 env/
-
-# Django DB or logs
-*.sqlite3
-*.log
-
-# Static/media files (they will be collected via collectstatic)
-static/
 media/
-
-# dotenv environment variables
-.env
-*.env
-
-# Git and related
-.git/
-.gitignore
-
-# macOS / Linux / Windows trash files
-.DS_Store
-Thumbs.db
-
-# Node modules (if frontend is present)
+static/
 node_modules/
-npm-debug.log
-yarn-error.log
-
-# Docker files not needed inside image
-Dockerfile
-docker-compose.yml
-
-# VSCode settings or other editor configs
-.vscode/
-.idea/
-*.swp
