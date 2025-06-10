@@ -42,10 +42,10 @@ Env.read_env(os.path.join(BASE_DIR, '.env'))  # Load .env from BASE_DIR
 # SECURITY WARNING: keep the secret key used in production secret!
 
 # SECURITY WARNING: don't run with debug turned on in production!
-if ENVIRONMENT == "development":
-    DEBUG = False
-else:
-    DEBUG = False
+# if ENVIRONMENT == "development":
+#     DEBUG = False
+# else:
+#     DEBUG = False
 # settings.py
 # REST_FRAMEWORK = {
 #     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
