@@ -4,6 +4,7 @@ from decouple import config  # Import config from decouple this is used to load 
 from pathlib import Path
 import os
 import dj_database_url
+from decouple import Config, RepositoryEnv
 
 from environ import Env
 env = Env()
@@ -38,7 +39,7 @@ SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 if ENVIRONMENT == "development":
-    DEBUG = True
+    DEBUG = False
 else:
     DEBUG = False
 # settings.py
@@ -47,7 +48,7 @@ else:
 #     'PAGE_SIZE': 10,  # adjust as needed
 # }
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition for the API
 # APPEND_SLASH = True
@@ -87,16 +88,16 @@ MIDDLEWARE = [
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
+    # "http://localhost:3000",
+    # "http://127.0.0.1:3000",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:3000",  # ✅ include the scheme (http/https)
+    # "http://localhost:3000",  # ✅ include the scheme (http/https)
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://focustube.online",
+    # "https://focustube.online",
 ]
 
 REST_FRAMEWORK = {
@@ -145,21 +146,21 @@ WSGI_APPLICATION = 'focustubeBase.wsgi.application'
 # }
 
 
+# import dj_database_url
+# from decouple import config as env
+
+ENVIRONMENT = env('ENVIRONMENT', default='development')
 
 # Default: use SQLite locally
-DATABASES = {
-    'default': {
+DATABASES = {}
+
+if ENVIRONMENT == 'production':
+    DATABASES['default'] = dj_database_url.parse(env('DATABASE_URL'))
+else:
+    DATABASES['default'] = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-}
-
-# If DATABASE_URL is set (like on Railway), use PostgreSQL
-POSTGRES_LOCALLY = True
-if ENVIRONMENT == 'production' or POSTGRES_LOCALLY == True:
-    DATABASES['default'] = dj_database_url.parse(env('DATABASE_URL'))
-
-
 
 
 # Password validation
@@ -203,6 +204,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # USERNAME_BLACKLIST = [
 #     'admin', 'root', 'support', 'staff', 'superuser',
