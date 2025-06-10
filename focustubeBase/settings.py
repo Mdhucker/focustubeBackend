@@ -10,12 +10,6 @@ import dj_database_url
 from environ import Env
 
 
-# Initialize environment variables
-env = Env()
-Env.read_env()  # read .env file if present
-
-# Get environment mode, default to 'development'
-
 
 
 
@@ -36,9 +30,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 # SECRET_KEY = 'django-insecure-ix0fhowl+*n@nfmn=$bn_&cpq3vteo@_jh_bk*j#jtuk^fudgq'
+# Initialize environment variables
+# Initialize environment
+env = Env()
+Env.read_env(os.path.join(BASE_DIR, '.env'))  # Load .env from BASE_DIR
+
+# Get environment mode, default to 'development'
+SECRET_KEY = env('SECRET_KEY')
+
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY=env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 if ENVIRONMENT == "development":
