@@ -34,6 +34,7 @@ SECRET_KEY = 'django-insecure-ix0fhowl+*n@nfmn=$bn_&cpq3vteo@_jh_bk*j#jtuk^fudgq
 # Initialize environment
 env = Env()
 Env.read_env(os.path.join(BASE_DIR, '.env'))  # Load .env from BASE_DIR
+DEBUG = True
 
 # Get environment mode, default to 'development'
 # SECRET_KEY = env('SECRET_KEY')
@@ -79,6 +80,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
         'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -215,3 +217,5 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 #     'admin', 'root', 'support', 'staff', 'superuser',
 #     'moderator', 'help', 'null', 'none', 'me', 'system','abuu_luquman',
 # ]
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
